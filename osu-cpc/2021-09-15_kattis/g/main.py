@@ -3,7 +3,6 @@ from scipy import linalg
 
 def solve_linalg(left, right):
     #gaussian elimination?
-    
     pass
 
 t = int(input())
@@ -30,10 +29,3 @@ for i in range(t):
         xv = -s[1]/(2*s[0]) #-b/(2a)
         yv = s[0]*(xv**2)+s[1]*xv+s[2]
         print(yv)
-
-"""
-Find the obstacle that lies on the parabola line
-    If no obstacle, the height is the starting height or the gorilla's height (whichever is tallest)
-https://socratic.org/questions/how-do-you-find-the-quadratic-function-y-ax-2-bx-c-whose-graph-passes-through-th
-Gaussian elimination
-"""
