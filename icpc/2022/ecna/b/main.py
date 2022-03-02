@@ -1,4 +1,3 @@
-import sys
 n, m = map(int, input().split())
 minPages = 1000 ** 2
 pagesArr = []
