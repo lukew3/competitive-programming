@@ -1,5 +1,6 @@
+import sys
 n, m = map(int, input().split())
-min = int(1e8) #maxint
+minPages = 1000 ** 2
 pagesArr = []
 while len(pagesArr) < n:
     pagesArr += input().split()
@@ -26,7 +27,7 @@ for chapter in cchapters:
     for chapter2 in cchapters:
         if chapter != chapter2:
             pages2, _ = getPages(chapter2, prevRead)
-            if pages + pages2 < min:
-                min = pages + pages2
+            if pages + pages2 < minPages:
+                minPages = pages + pages2
 
-print(min)
+print(minPages)

@@ -13,19 +13,22 @@ for _ in range(m):
         cchapters.remove(a) 
 
 for chapter in cchapters:
-    pageCountA = 0
+    pageCount1 = 0
     countedChapters = []
     while (chapter in refDict):
-        pageCountA += pagesArr[chapter-1]
+        pageCount1 += pagesArr[chapter-1]
         countedChapters.append(chapter)
         chapter = refDict[chapter]
+    pageCount1 += pagesArr[chapter-1]
+    countedChapters.append(chapter)
     for chapter2 in cchapters:
         if chapter != chapter2:
-            pageCountB = pageCountA
+            pageCount2 = 0
             while (chapter2 in refDict and chapter2 not in countedChapters):
-                pageCountB += pagesArr[chapter2-1]
+                pageCount2 += pagesArr[chapter2-1]
                 chapter2 = refDict[chapter2]
-            if pageCountB < minPageCount:
-                minPageCount = pageCountB
+            pageCount2 += pagesArr[chapter2-1]
+            if pageCount1 + pageCount2 < minPageCount:
+                minPageCount = pageCount1 + pageCount2
 
 print(minPageCount)
