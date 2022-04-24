@@ -1,0 +1,8 @@
+in: 1 4 2 3
+best: 1 3 2 4 or 1 3 2 4
+
+Strats:
+
+Choose the lowest pancake that will still satisfy the customer
+
+Run through every situation
