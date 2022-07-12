@@ -1,0 +1,5 @@
+4 0
+3 2
+
+Get hours under or equal to average?
+No worker should ever have more than or equal to 2*m/n hours or 2*tasks/workers hours
