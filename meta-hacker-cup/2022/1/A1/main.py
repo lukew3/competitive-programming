@@ -9,6 +9,7 @@ t = int(input())
 for case in range(t):
     print(f"Case #{case}: {solve()}")
 
+# If an even number of cuts are left and you have already made the right permutation, you can do and undo moves keeping permutation
 """
 5 1 2 4 3
 2 4 3 5 1
