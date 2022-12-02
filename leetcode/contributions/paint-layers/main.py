@@ -7,11 +7,7 @@ def solution(layers, k):
     # Return true if brush is of size 1
     if k == 1: return True
     # If brush is bigger than the wall, return True if wall is already correct, False if not
-    if k > len(layers):
-        if sum(layers) == 0:
-            return True
-        else:
-            return False
+    if k > len(layers): return sum(layers) == 0
 
     # Use a queue to store history of layers painted
     layers_history = deque([0 for i in range(k-1)])
