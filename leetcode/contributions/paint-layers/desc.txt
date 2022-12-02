@@ -1,0 +1,2 @@
+You are given an array of values `layers` containing integers stating the desired number of layers of paint to be applied to columns of a wall. You are given a paint brush of length `k` that when applies one layer of paint to exactly `k` columns of the wall at once. Return a boolean stating if it is possible to paint this arrangement of layers with the given brush.
+
