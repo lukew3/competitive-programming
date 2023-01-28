@@ -1,0 +1,17 @@
+2
+5
+mom: upper-upper-lower-middle class
+dad: middle-middle-middle-lower-middle class
+queenelizabeth: upper-upper-upper class
+chair: lower-lower class
+unclebob: middle-middle-lower-middle class
+8
+mom: upper-upper-lower-middle class
+mom2: middle-upper-upper-lower-middle class
+dad: middle-middle-middle-lower-middle class
+eric: middle-middle-middle-lower-middle class
+queenelizabeth: upper-upper-upper class
+chair: lower-lower class
+coolchair: upper-lower-lower class
+coolerchair: upper-lower-middle class
+unclebob: middle-middle-lower-middle class
